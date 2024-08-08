@@ -22,7 +22,7 @@ public class Main {
             studentService.getAllStudents().forEach(System.out::println);
 
             studentService.deleteStudentById(1);
-            System.out.println("\nAfter deleting Alice:");
+            System.out.println("\nAfter deleting student ID 1:");
             studentService.getAllStudents().forEach(System.out::println);
     }
 }
